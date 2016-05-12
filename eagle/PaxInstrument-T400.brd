@@ -53,7 +53,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
@@ -5975,10 +5975,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="91.606" y1="21.59" x2="91.606" y2="21.805" width="0.3048" layer="1"/>
 <wire x1="91.606" y1="21.805" x2="89.916" y2="23.495" width="0.3048" layer="1"/>
 <contactref element="U1" pad="53"/>
-<wire x1="89.916" y1="23.495" x2="82.931" y2="23.495" width="0.3048" layer="1"/>
-<wire x1="82.931" y1="23.495" x2="77.216" y2="17.78" width="0.3048" layer="1"/>
-<wire x1="77.216" y1="17.78" x2="77.216" y2="12.7" width="0.3048" layer="1"/>
-<wire x1="77.216" y1="12.7" x2="74.422" y2="9.906" width="0.3048" layer="1"/>
+<wire x1="77.724" y1="13.208" x2="74.422" y2="9.906" width="0.3048" layer="1"/>
 <wire x1="74.422" y1="9.906" x2="65.532" y2="9.906" width="0.3048" layer="1"/>
 <wire x1="65.532" y1="9.906" x2="58.928" y2="3.302" width="0.3048" layer="1"/>
 <via x="58.928" y="3.302" extent="1-16" drill="0.3302"/>
@@ -5990,6 +5987,9 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="19.05" y="11.176" extent="1-16" drill="0.3302"/>
 <wire x1="19.05" y1="11.176" x2="19.05" y2="13.396875" width="0.3048" layer="1"/>
 <wire x1="19.05" y1="13.396875" x2="20.132053125" y2="14.478928125" width="0.3048" layer="1"/>
+<wire x1="77.724" y1="13.208" x2="81.026" y2="13.208" width="0.3048" layer="1"/>
+<wire x1="81.026" y1="13.208" x2="89.916" y2="22.098" width="0.3048" layer="1"/>
+<wire x1="89.916" y1="22.098" x2="89.916" y2="23.495" width="0.3048" layer="1"/>
 </signal>
 <signal name="SW_C">
 <contactref element="R12" pad="2"/>
